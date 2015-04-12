@@ -1,4 +1,4 @@
-REM By Tom Chantler - https://tomssl.com
+REM By Tom Chantler - https://tomssl.com/2015/03/31/always-run-visual-studio-as-administrator-with-no-uac-prompt/
 @echo off
 Set _FileToOpen="%~1"
 CALL :dequote _FileToOpen
