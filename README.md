@@ -1,7 +1,9 @@
 # Always-Admin-VS
 Run Visual Studio as an Administrator with no UAC prompt, regardless of how it is called.
 
-This is specific to Visual Studio 2013, although it would be very easy to change it to work with other versions (you just need to change the file path). You could also adapt it for other applications quite easily.
+**UPDATE 2015-06-27: Added Visual Studio 2015 version in VS2015 folder**
+
+This is specific to Visual Studio 2013 (NEW: VS2015 version in VS2015 folder), although it would be very easy to change it to work with other versions (you just need to change the file path). You could also adapt it for other applications quite easily.
 
 Download all the files and then right-click on `install.bat` and *Run as administrator*. The batch files will be copied somewhere sensible and the xml file will be imported as a Windows Scheduled Task.
 
