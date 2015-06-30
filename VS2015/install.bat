@@ -1,7 +1,7 @@
 REM By Tom Chantler - https://tomssl.com/2015/03/31/always-run-visual-studio-as-administrator-with-no-uac-prompt/
 mkdir "%ProgramFiles(x86)%\TomSSL"
 mkdir "%ProgramData%\TomSSL"
-cd %~dp0
+cd /d %~dp0
 copy RunVS2015.bat "%ProgramFiles(x86)%\TomSSL"
 copy RunVS2015.vbs "%ProgramFiles(x86)%\TomSSL"
 copy VS2015.bat "%ProgramFiles(x86)%\TomSSL"
