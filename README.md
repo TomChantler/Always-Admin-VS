@@ -1,6 +1,8 @@
 # Always-Admin-VS
 Run Visual Studio as an Administrator with no UAC prompt, regardless of how it is called.
 
+**UPDATE 2015-07-29: Seems to work okay in Windows 10 RTM (10.0.10240)**
+
 **UPDATE 2015-06-27: Added Visual Studio 2015 version in VS2015 folder**
 
 This is specific to Visual Studio 2013 (NEW: VS2015 version in VS2015 folder), although it would be very easy to change it to work with other versions (you just need to change the file path). You could also adapt it for other applications quite easily.
