@@ -1,7 +1,7 @@
 # Always-Admin-VS
 Run Visual Studio as an Administrator with no UAC prompt, regardless of how it is called.
 
-**UPDATE 2015-07-29: Seems to work okay in Windows 10 RTM (10.0.10240)**
+**UPDATE 2015-07-29: Works in Windows 10 RTM (10.0.10240)**
 
 **UPDATE 2015-06-27: Added Visual Studio 2015 version in VS2015 folder**
 
@@ -9,7 +9,7 @@ This is specific to Visual Studio 2013 (NEW: VS2015 version in VS2015 folder), a
 
 Download all the files and then right-click on `install.bat` and *Run as administrator*. The batch files will be copied somewhere sensible and the xml file will be imported as a Windows Scheduled Task.
 
-After installation you will need to update any existing shortcuts by making them point to `"%ProgramFiles(x86)%\TomSSL\VS2013.bat"`.
+After installation you will need to update any existing shortcuts by making them point to `"%ProgramFiles(x86)%\TomSSL\VS2013.vbs"`.
 
 You can delete the setup files after installation.
 
